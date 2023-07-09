@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.container img {
+  width: 100px; /* Tamanho desejado para as imagens */
+  height: 100px;
+  object-fit: cover; /* Manter proporções */
+  margin: 5px; /* Margem entre as imagens */
+  
+}
+button {
+  color: red;
+  margin-top: 10px;
+}
+
+/*div {
+  margin: 5px;
+}*/
+
+
+
+header {
+  background-color: black;
+  text-align: center;
+}
+h1 {
+  color :white;
+}
+
+/*.zoomed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoomed img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+*/
